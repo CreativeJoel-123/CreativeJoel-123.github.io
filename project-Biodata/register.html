@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../project-Biodata/static/css/bootstrap.css">
+    <link rel="stylesheet" href="../project-Biodata/static/css/headers.css">
+    <style>
+body{
+  background: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+a{
+  color: #333;
+}
+a:hover{
+  color: #9ec5fe;
+  text-decoration: none;
+}
+.card{
+  border: 0.30rem solid #f8f9fa;
+  top: 40%;
+}
+    </style>
+</head>
+<body>
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <!-- LOGO LINK TO HOME PAGE -->
+                <!-- <div> -->
+                    <a href="./index.html" class="d-flex flex-wrap align-items-center mb-2 mb-lg-0 text-white text-decoration-none"><img src="../project-Biodata/static/images/My project (19).png" alt="" class="img-fluid rounded" height="60" width="60"></a>
+                <!-- </div> -->
+                <!-- LINK ITEMS -->
+                <!-- <div> -->
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li><a href="./index.html"class="nav-link px-2 text-secondary">Dashboard</a></li>
+                        <li><a href="./biodata.html"class="nav-link px-2 text-secondary">Biodata</a></li>
+                        <li><a href="./course-rep.html"class="nav-link px-2 text-secondary">Reps</a></li>
+                    </ul>
+                <!-- </div> -->
+                <!-- SEARCH FORM -->
+                <!-- <div> -->
+                    <form action="" method="get" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                        <input class="form-control form-control-dark text-bg-dark" type="search" name="search" id="search" placeholder="Search">
+                    </form>
+                <!-- </div> -->
+                <!-- LOGIN AND SIGN UP -->
+                <div class="text-end">
+                   <a href="./login.html"><button class="btn btn-outline-light me-2">Register</button></a>
+                   <a href="./register.html"><button class="btn btn-primary">Login</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-md-5">
+         <div class="card">
+           <h2 class="card-title text-center mt-3">Register</h2>
+            <div class="card-body py-md-4">
+             <form action="./login.html">
+                <div class="form-group">
+                   <input type="text" class="form-control mb-3" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                   <input type="email" class="form-control mb-3" id="email" placeholder="Email">
+                                  </div>
+                                  
+                                
+         <div class="form-group">
+           <input type="password" class="form-control mb-3" id="password" placeholder="Password">
+         </div>
+         <div class="row">
+            <div class="col-12">
+                <div class="checkbox mb-3">
+                    <label>
+                      <input type="checkbox" value="accept-terms"> I accept Terms and Conditions
+                    </label>
+                  </div>
+            </div>
+         <!-- <div class="form-group">
+            <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password">
+         </div> -->
+         <div class="justify-content-center mb-3">
+                                      <a href="./login.html"><button class="w-100 btn btn-primary mt-3">Register</button></a><hr>
+                </div>
+             </form>
+           </div>
+        </div>
+      </div>
+      </div>
+      </div>
+</body>
+</html>
